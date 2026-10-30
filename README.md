@@ -1,4 +1,4 @@
-﻿<div align=center>
+<div align=center>
 
 # 🔐 Cybersecurity Lab Environment Setup
 
@@ -121,6 +121,7 @@ Under **VirtualBox Tools > Network Manager**, a custom NAT Network was provision
    - **Adapter Type:** Intel PRO/1000 MT Desktop
    - **Promiscuous Mode:** Allow All
 3. Assigned 2048 MB of RAM and 2 virtual processor cores.
+4. Configured a VirtualBox Shared Folder (`sf_Downloads`) to seamlessly transfer project files between the Windows host operating system and the Kali VM.
 
 ![](3-screenshot-kali-linux.png)
 
